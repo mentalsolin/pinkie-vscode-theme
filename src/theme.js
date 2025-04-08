@@ -174,7 +174,7 @@ function getTheme({ theme, name }) {
       "editor.foldBackground"             : alpha(color.neutral.emphasis, 0.1),
       "editor.lineHighlightBackground"    : color.codemirror.activelineBg,
       "editor.lineHighlightBorder"        : onlyDarkHighContrast(color.accent.fg),
-      "editorLineNumber.foreground"       : lightDark(scale.gray[4], scale.gray[4]),
+      "editorLineNumber.foreground"       : color.fg.muted,
       "editorLineNumber.activeForeground" : color.fg.default,
       "editorIndentGuide.background"      : alpha(color.fg.default, 0.12),
       "editorIndentGuide.activeBackground": alpha(color.fg.default, 0.24),
